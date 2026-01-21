@@ -1,0 +1,153 @@
+.profileContainer {
+    width: 140%; 
+    max-width: 1000px; 
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 auto; 
+    transform: translateX(-10%);
+}
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  
+  .section h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .fullWidth {
+    grid-column: span 2;
+  }
+  
+  label {
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+    font-size: 15px;
+    color: #333;
+    transition: all 0.2s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+  }
+  
+  .readOnlyInput {
+    background: #f5f5f5;
+    color: #666;
+    border-color: #eee;
+    cursor: not-allowed;
+  }
+  
+  .editButton {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .editButton:hover {
+    background: #2980b9;
+  }
+  
+  .editActions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .saveButton {
+    background: #5ea9f9;
+  }
+  
+  .saveButton:hover {
+    background: #007bff;
+  }
+  
+  .cancelButton {
+    background: #95a5a6;
+  }
+  
+  .cancelButton:hover {
+    background: #7f8c8d;
+  }
+  .profileContainer {
+    transform: translateX(-200px); /* Moves the element left without layout issues */
+}
+
+  
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .fullWidth {
+      grid-column: span 1;
+    }
+    
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .editActions {
+      width: 100%;
+      flex-direction: column;
+    }
+    
+    .editActions button {
+      width: 100%;
+    }
+  }

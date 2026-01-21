@@ -1,0 +1,66 @@
+/* AdminFeedbacks.module.css */
+
+.container {
+  min-height: 100vh;
+  background-color: #f9fafb; /* Gray-50 */
+  padding: 1rem 2rem;
+  margin-top: 100px;
+}
+
+.header {
+  max-width: 1120px; /* max-w-7xl */
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem; /* text-2xl */
+  font-weight: bold; /* font-bold */
+  color: #1f2937; /* text-gray-800 */
+}
+
+.subtitle {
+  color: #4b5563; /* text-gray-600 */
+  margin-top: 0.5rem; /* mt-2 */
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem; /* h-64 */
+}
+
+.error {
+  background-color: #fecaca; /* bg-red-50 */
+  border-left: 4px solid #f87171; /* border-red-500 */
+  padding: 1rem;
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.tableContainer {
+  background-color: #ffffff; /* bg-white */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* shadow */
+  overflow: hidden;
+  border-radius: 0.5rem; /* sm:rounded-lg */
+}
+
+.table {
+  min-width: 100%; /* min-w-full */
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  background-color: #f3f4f6; /* bg-gray-50 */
+}
+
+.tableCell {
+  padding: 1rem; /* px-6 py-4 */
+  text-align: left; /* text-left */
+  font-size: 0.875rem; /* text-xs */
+  color: #6b7280; /* text-gray-500 */
+}
+
+.tableRow:hover {
+  background-color: #f3f4f6; /* hover:bg-gray-50 */
+}

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+/* Heading */
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Subheading */
+.login-box p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #141e30;
+}
+
+.input-group .icon {
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  color: #777;
+  font-size: 18px;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  color: #141e30;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Sign-In Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #141e30;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #243b55;
+}
+
+/* Sign-Up Link */
+.signup-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #141e30;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+.container {
+  width: 600px;
+  margin: 50px auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  margin-top: 450px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.section input, 
+.section select {
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.section input:focus,
+.section select:focus {
+  border-color: #2980b9;
+}
+
+.datesSection {  
+  margin-top: 20px;
+}
+
+.dateRange {  /* ← changed from .date-range to .dateRange */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.addBtn, .removeBtn {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addBtn:hover, .removeBtn:hover {
+  background-color: #2980b9;
+}
+
+.submitBtn {
+  background-color: #2ecc71;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #27ae60;
+}

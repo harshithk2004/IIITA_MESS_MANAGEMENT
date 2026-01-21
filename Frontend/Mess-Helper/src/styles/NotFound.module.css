@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 480px;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  }
+  
+  .errorCode {
+    font-size: 5rem;
+    margin: 0;
+    color: #3b82f6;
+    font-weight: 800;
+    line-height: 1;
+  }
+  
+  .errorTitle {
+    font-size: 1.75rem;
+    margin: 1rem 0 0.5rem;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  
+  .errorMessage {
+    font-size: 1.125rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .homeButton {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+  
+  .homeButton:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.2);
+  }
+  
+  /* Animation for subtle floating effect */
+  @keyframes subtleFloat {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .errorCode {
+    animation: subtleFloat 3s ease-in-out infinite;
+  }
