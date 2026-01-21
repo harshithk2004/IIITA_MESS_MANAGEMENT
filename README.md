@@ -50,15 +50,7 @@ A web application designed to streamline the hostel mess operations in college c
 
 ---
 
-## 📚 Team Members
 
-| Name              | Roll Number   |
-|-------------------|---------------|
-| Rahul Pallabothula | IIT2023178    |
-| Syam Prasad        | IIT2023181    |
-| Rabba Sudheer      | IIT2023184    |
-| Sagar Nani         | IIT2023109    |
-| Aman Bijarnia      | IIT2023163    |
 
 ---
 
